@@ -41,6 +41,7 @@ public class Tally {
 
     // isMajority()
     public boolean isMajority() {
+        // max
         double max = 0.0;
         double total = 0.0;
         int index = 0;
@@ -70,6 +71,7 @@ public class Tally {
             return true;
         }
         
+        // min
         int min = tallies[0];
         for (int i = 0; i < tallies.length; i++) {
             if (tallies[i] < tallies[min]) {
